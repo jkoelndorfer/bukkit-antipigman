@@ -2,3 +2,5 @@
 *.class
 # Vim swap files
 *.sw*
+# The generated plugin file
+AntiPigman.jar
