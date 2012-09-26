@@ -33,10 +33,6 @@ public class AntiPigman extends JavaPlugin implements Listener {
 		getServer().getPluginManager().registerEvents(this, this);
 	}
 
-	@Override
-	public void onDisable() {
-	}
-
 	@EventHandler
 	public void onCreatureSpawn(CreatureSpawnEvent e) {
 		EntityType creatureType = e.getEntityType();
