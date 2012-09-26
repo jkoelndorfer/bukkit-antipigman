@@ -1,0 +1,4 @@
+# Java compiled class files
+*.class
+# Vim swap files
+*.sw*
